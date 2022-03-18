@@ -4,6 +4,8 @@ This is an official, proof-of-concept C++ implementation of the paper [PocketNN:
 ## The very first run
 Just run the `main.cpp` file to see training and testing a PocketNN network with the MNIST dataset! Other sample usages are written in `pktnn_examples.cpp` file.
 
+<img width="640" alt="demo screen capture animation" src="./demo_capture.gif">
+
 ## Notes
 I used Visual Studio 2019 to write this code. Visual Studio solution file is included in the repository to help importing the project.
 
