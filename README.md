@@ -10,7 +10,16 @@ Just run the `main.cpp` file to see training and testing a PocketNN network with
 I used Visual Studio 2019 to write this code. Visual Studio solution file is included in the repository to help importing the project.
 
 ## Citing PocketNN
-Citation information will be updated soon.
+TinyML 2022's official citation information will be updated soon. In the meantime, please use the arXiv information as below.
+
+```
+@article{song2022pocketnn,
+  title={PocketNN: Integer-only Training and Inference of Neural Networks via Direct Feedback Alignment and Pocket Activations in Pure C++},
+  author={Song, Jaewoo and Lin, Fangzhen},
+  journal={arXiv preprint arXiv:2201.02863},
+  year={2022}
+}
+```
 
 ## Presentation video
 Please click the image below to watch a youtube video which was recorded at tinyML 2022.
