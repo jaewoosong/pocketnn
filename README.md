@@ -1,5 +1,5 @@
 # PocketNN
-This is an official, proof-of-concept C++ implementation of the paper [PocketNN: Integer-only Training and Inference of Neural Networks via Direct Feedback Alignment and Pocket Activations in Pure C++](https://arxiv.org/abs/2201.02863). The paper was accepted in [TinyML 2022](https://www.tinyml.org/event/summit-2022/) as a full paper.
+This is an official, proof-of-concept C++ implementation of the paper [PocketNN: Integer-only Training and Inference of Neural Networks via Direct Feedback Alignment and Pocket Activations in Pure C++](https://arxiv.org/abs/2201.02863). The paper was accepted in [TinyML 2022 Research Symposium](https://www.tinyml.org/event/research-symposium-2022) as a full paper.
 
 ## The very first run
 Just run the `main.cpp` file to see training and testing a PocketNN network with the MNIST dataset! Other sample usages are written in `pktnn_examples.cpp` file.
