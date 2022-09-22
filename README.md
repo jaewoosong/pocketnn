@@ -24,6 +24,8 @@ TinyML 2022's official citation information will be updated soon. In the meantim
 ## Presentation video
 Please click the image below to watch a youtube video which was recorded at tinyML 2022.
 
+[Youtube link of TinyML 2022: PocketNN Video](https://www.youtube.com/watch?v=Gcx-b92iXlI)
+
 [![A presentation video recorded at tinyML 2022.](http://img.youtube.com/vi/Gcx-b92iXlI/0.jpg)](https://www.youtube.com/watch?v=Gcx-b92iXlI)
 
 ## License
