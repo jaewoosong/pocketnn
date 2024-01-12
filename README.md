@@ -1,4 +1,4 @@
-## Update (2024 Jan 12)
+## Update (2024 Jan 12): Linux support
 PocketNN code for Linux is uploaded! The code for Linux is located under `PocketNN_linux` directory. The previous code for Windows is now located under `PockerNN_windows` directory. Please see the details below for the building process.
 
 ---
