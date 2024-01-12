@@ -1,3 +1,8 @@
+## Update (2024 Jan 12)
+PocketNN code for Linux is uploaded! The code for Linux is located under `PocketNN_linux` directory. The previous code for Windows is now located under `PockerNN_windows` directory. Please see the details below for the building process.
+
+---
+
 # PocketNN
 This is an official, proof-of-concept C++ implementation of the paper [PocketNN: Integer-only Training and Inference of Neural Networks via Direct Feedback Alignment and Pocket Activations in Pure C++](https://arxiv.org/abs/2201.02863). The paper was accepted in [TinyML 2022 Research Symposium](https://www.tinyml.org/event/research-symposium-2022) as a full paper.
 
