@@ -25,7 +25,7 @@ cmake ..
 make
 ```
 
-The `libcurl` library is required. If it is not on your system, install by following commands:
+The `libcurl` library is required in order to download datasets from the internet. Please note that `libcurl` is just for downloading files from the internet, not related to PocketNN algorithm at all. If `libcurl` is not on your system, you can install it by the following commands:
 
 ```
 # Ubuntu
