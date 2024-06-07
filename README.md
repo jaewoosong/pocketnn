@@ -13,17 +13,12 @@ Please click the image below to watch a youtube video which was recorded at tiny
 
 [![A presentation video recorded at tinyML 2022.](http://img.youtube.com/vi/Gcx-b92iXlI/0.jpg)](https://www.youtube.com/watch?v=Gcx-b92iXlI)
 
-## Citing PocketNN
-### ACM Reference Format
-Jaewoo Song and Fangzhen Lin. 2022. PocketNN: Integer-only Training and Inference of Neural Networks via Direct Feedback Alignment and Pocket Activations in Pure C++. In Proceedings of tinyML Research Symposium
-(tinyML Research Symposium'22). ACM, New York, NY, USA, 7 pages.
-
-### BibTeX
+## Citing PocketNN (BibTeX)
 ```
-@inproceedings{song2022pocketnn,
+@article{song2022pocketnn,
   title={PocketNN: Integer-only Training and Inference of Neural Networks via Direct Feedback Alignment and Pocket Activations in Pure C++},
   author={Song, Jaewoo and Lin, Fangzhen},
-  booktitle={Proceedings of tinyML Research Symposium (tinyML Research Symposium'22)},
+  journal={arXiv preprint arXiv:2201.02863},
   year={2022}
 }
 ```
