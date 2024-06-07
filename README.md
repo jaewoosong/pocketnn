@@ -1,8 +1,3 @@
-## Update (2024 Jan 12): Linux support
-PocketNN code for Linux is uploaded! The code for Linux is located under `PocketNN_linux` directory. The previous code for Windows is now located under `PockerNN_windows` directory. Please see the details below for the building process.
-
----
-
 # PocketNN
 This is an official, proof-of-concept C++ implementation of the paper [PocketNN: Integer-only Training and Inference of Neural Networks via Direct Feedback Alignment and Pocket Activations in Pure C++](https://arxiv.org/abs/2201.02863). The paper was accepted in [TinyML 2022 Research Symposium](https://www.tinyml.org/event/research-symposium-2022) as a full paper.
 
@@ -10,6 +5,28 @@ This is an official, proof-of-concept C++ implementation of the paper [PocketNN:
 Just run the `Main.cpp` file to see training and testing a PocketNN network with the MNIST dataset! Other sample usages can be found in `pktnn_examples.cpp` file.
 
 <img width="640" alt="demo screen capture animation" src="./demo_capture.gif">
+
+## Presentation video
+Please click the image below to watch a youtube video which was recorded at tinyML 2022.
+
+[Youtube link of TinyML 2022: PocketNN Presentation](https://www.youtube.com/watch?v=Gcx-b92iXlI)
+
+[![A presentation video recorded at tinyML 2022.](http://img.youtube.com/vi/Gcx-b92iXlI/0.jpg)](https://www.youtube.com/watch?v=Gcx-b92iXlI)
+
+## Citing PocketNN
+### ACM Reference Format
+Jaewoo Song and Fangzhen Lin. 2022. PocketNN: Integer-only Training and Inference of Neural Networks via Direct Feedback Alignment and Pocket Activations in Pure C++. In Proceedings of tinyML Research Symposium
+(tinyML Research Symposium'22). ACM, New York, NY, USA, 7 pages.
+
+### BibTeX
+```
+@inproceedings{song2022pocketnn,
+  title={PocketNN: Integer-only Training and Inference of Neural Networks via Direct Feedback Alignment and Pocket Activations in Pure C++},
+  author={Song, Jaewoo and Lin, Fangzhen},
+  booktitle={Proceedings of tinyML Research Symposium (tinyML Research Symposium'22)},
+  year={2022}
+}
+```
 
 ## How to Build
 There are two directories, `PocketNN_linux` and `PocketNN_windows`, because of slight differences between C++ development environment of Linux and Windows. The algorithm is identical.
@@ -25,7 +42,7 @@ cmake ..
 make
 ```
 
-The `libcurl` library is required in order to download datasets from the internet. Please note that `libcurl` is just for downloading files from the internet, not related to PocketNN algorithm at all. If `libcurl` is not on your system, you can install it by the following commands:
+The `libcurl` library is required in order to download sample datasets from the internet. Please note that `libcurl` is just for downloading files from the internet, not related to PocketNN algorithm at all. If `libcurl` is not on your system, you can install it by the following commands:
 
 ```
 # Ubuntu
@@ -78,25 +95,6 @@ $
 
 ### Windows
 The `PocketNN_windows` directory contains PocketNN code for Windows. I used Visual Studio 2019 to write the code. Visual Studio solution file is included in the repository to help importing the project.
-
-## Citing PocketNN
-TinyML 2022's official citation information will be updated soon. In the meantime, please use the arXiv information as below.
-
-```
-@article{song2022pocketnn,
-  title={PocketNN: Integer-only Training and Inference of Neural Networks via Direct Feedback Alignment and Pocket Activations in Pure C++},
-  author={Song, Jaewoo and Lin, Fangzhen},
-  journal={arXiv preprint arXiv:2201.02863},
-  year={2022}
-}
-```
-
-## Presentation video
-Please click the image below to watch a youtube video which was recorded at tinyML 2022.
-
-[Youtube link of TinyML 2022: PocketNN Presentation](https://www.youtube.com/watch?v=Gcx-b92iXlI)
-
-[![A presentation video recorded at tinyML 2022.](http://img.youtube.com/vi/Gcx-b92iXlI/0.jpg)](https://www.youtube.com/watch?v=Gcx-b92iXlI)
 
 ## License
 PocketNN uses the MIT License. For details, please see the `LICENSE` file.
