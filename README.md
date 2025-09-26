@@ -15,11 +15,14 @@ Please click the image below to watch a youtube video which was recorded at tiny
 
 ## Citing PocketNN (BibTeX)
 ```
-@article{song2022pocketnn,
-  title={PocketNN: Integer-only Training and Inference of Neural Networks via Direct Feedback Alignment and Pocket Activations in Pure C++},
-  author={Song, Jaewoo and Lin, Fangzhen},
-  journal={arXiv preprint arXiv:2201.02863},
-  year={2022}
+@conference{song2022pocketnn,
+  author    = {Song, Jaewoo and Lin, Fangzhen},
+  title     = {PocketNN: Integer-only training and inference of neural networks via direct feedback alignment and pocket activations in pure C++},
+  booktitle = {tinyML Research Symposium 2022},
+  month     = {March},
+  year      = {2022},
+  address   = {San Jose, California, USA}
+  note      = {https://arxiv.org/abs/2201.02863},
 }
 ```
 
